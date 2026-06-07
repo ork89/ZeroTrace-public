@@ -236,3 +236,26 @@ h2 {
     border-radius: 22px;
   }
 }
+
+.copyright-section {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--panel-border);
+  text-align: center;
+}
+
+.copyright-text {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.copyright-text a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.copyright-text a:hover {
+  color: var(--accent-strong);
+  text-decoration: underline;
+}
