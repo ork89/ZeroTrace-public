@@ -1,39 +1,38 @@
 # ZeroTrace
 
-ZeroTrace is ad and tracker blocker browser extension built for focused, low-noise browsing.
+ZeroTrace is browser extension built around two promises: privacy and quality of life while browsing.
 
-It blocks common ad and tracker requests before they load, then cleans leftover visual clutter with page-level filtering.
+It blocks common tracker and ad requests before they load, then cleans visual clutter so pages feel calmer and easier to use.
 
 ## Why ZeroTrace
 
-- Earlier blocking at network level
-- Cleaner pages with cosmetic filtering
-- One-click per-site pause and skip controls
-- Transparent controls in popup and full settings page
+- Privacy from web trackers and ad systems
+- Privacy from unnecessary developer-side visibility
+- Cleaner pages with lower visual noise
+- Clear controls in popup and full settings page
 
-## Core controls
+## Privacy model
+
+ZeroTrace protects from two directions:
+
+- **Web-facing privacy:** blocks many ad and tracker requests, then removes leftover ad clutter.
+- **Developer-facing privacy:** protection and preferences stay local in your browser profile, with no account requirement.
+
+Read full policy in [PRIVACY.md](PRIVACY.md).
+
+## Quality-of-life controls
 
 - Master protection switch
 - Network blocking
 - Cosmetic filtering
 - Badge visibility
 - Category toggles: ads, trackers, annoyances, social widgets
+- Per-site pause and skip controls
 - Optional notifications and diagnostics toggles
 
 ## Single purpose
 
-ZeroTrace has one purpose: reduce ads, trackers, and visual clutter during browsing by combining request blocking and page cleanup controls.
-
-## Privacy
-
-ZeroTrace uses privacy-first product design.
-
-- No account required
-- Local browser settings storage for your preferences
-- No sale of personal data
-- No sharing of personal data with data brokers
-
-Read full policy in [PRIVACY.md](PRIVACY.md).
+ZeroTrace has one purpose: deliver private, low-noise browsing by combining request blocking, page cleanup, and clear user control.
 
 ## Permissions
 
@@ -51,5 +50,5 @@ Each permission maps to visible user-facing behavior, including protection runti
 
 ## Support
 
-- Issues: https://github.com/ork89/ZeroTrace-public/issues
-- License: [LICENSE](LICENSE)
+- Issues: [GitHub Issues](https://github.com/ork89/ZeroTrace-public/issues)
+- License: [LICENSE](https://github.com/ork89/ZeroTrace-public/blob/main/LICENSE)
