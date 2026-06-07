@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - ZeroTrace</title>
+    <meta
+      name="description"
+      content="ZeroTrace privacy policy. Local-first architecture, no data selling, no tracking of users."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .privacy-content {
+        line-height: 1.8;
+      }
+
+      .privacy-content h2 {
+        margin-top: 32px;
+        margin-bottom: 16px;
+        padding-top: 12px;
+        border-top: 1px solid var(--panel-border);
+      }
+
+      .privacy-content h2:first-of-type {
+        border-top: none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+
+      .privacy-content h3 {
+        margin: 20px 0 12px;
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--accent-strong);
+      }
+
+      .privacy-content p {
+        margin: 14px 0;
+        color: var(--muted);
+      }
+
+      .privacy-content ul {
+        margin: 14px 0;
+        padding-left: 24px;
+      }
+
+      .privacy-content li {
+        margin: 10px 0;
+        color: var(--muted);
+      }
+
+      .privacy-content strong {
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      .privacy-content a {
+        color: var(--accent);
+        text-decoration: underline;
+      }
+
+      .privacy-content a:hover {
+        color: var(--accent-strong);
+      }
+
+      .policy-meta {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 24px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--panel-border);
+      }
+
+      .policy-meta span {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        margin-bottom: 20px;
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 0.95rem;
+      }
+
+      .back-link:hover {
+        color: var(--accent-strong);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="settings-shell">
+      <article class="settings-card">
+        <a href="index.html" class="back-link">← Back to ZeroTrace</a>
+
+        <div class="section-heading">
+          <p class="panel-label">Legal</p>
+          <h1 style="font-size: 2.2rem;">Privacy Policy</h1>
+        </div>
+
+        <div class="policy-meta">
+          <span><strong>Effective date:</strong> June 6, 2026</span>
+        </div>
+
+        <div class="privacy-content">
+          <h2>1. Overview</h2>
+          <p>
+            <strong>ZeroTrace</strong> is a browser extension focused on privacy and quality of life during browsing.
+          </p>
+          <p>
+            ZeroTrace is built with local-first privacy architecture. It protects from web trackers and ads while
+            limiting developer-side data visibility by keeping product behavior local in browser.
+          </p>
+
+          <h2>2. Two-layer privacy approach</h2>
+          <p>ZeroTrace protects privacy in two ways:</p>
+          <ul>
+            <li>
+              <strong>Web-facing privacy</strong> — blocks common ad and tracker activity at request level and reduces
+              tracking-related page clutter.
+            </li>
+            <li>
+              <strong>Developer-facing privacy</strong> — extension does not require account and keeps preferences in
+              local browser storage.
+            </li>
+          </ul>
+          <p>ZeroTrace <strong>does not</strong> sell personal data and <strong>does not</strong> share personal data with data brokers.</p>
+
+          <h2>3. Data ZeroTrace accesses for product behavior</h2>
+          <p>To provide blocking and per-site controls, ZeroTrace may access browser data locally on your device:</p>
+          <ul>
+            <li><strong>Active tab and host context</strong> — to apply popup actions to correct site</li>
+            <li><strong>Network request metadata</strong> — to apply request-level protection behavior</li>
+            <li><strong>Extension settings data</strong> — to keep your selected toggles and preferences</li>
+          </ul>
+          <p>This access supports extension functionality only, in local browser context.</p>
+
+          <h2>4. Local settings storage</h2>
+          <p>ZeroTrace stores settings locally in browser extension storage, including:</p>
+          <ul>
+            <li>global protection toggles</li>
+            <li>category toggles (ads, trackers, annoyances, social widgets)</li>
+            <li>per-site pause and skip controls</li>
+            <li>optional UI and notification preferences</li>
+          </ul>
+          <p>Settings stay in your browser profile until you change them or remove extension.</p>
+
+          <h2>5. No account required</h2>
+          <p>
+            ZeroTrace does not require account creation, sign-in, or profile setup to use core protection features.
+          </p>
+
+          <h2>6. Data sharing and selling</h2>
+          <p>ZeroTrace <strong>does not</strong> sell personal data.</p>
+          <p>ZeroTrace <strong>does not</strong> share personal data with data brokers.</p>
+
+          <h2>7. Permissions explanation</h2>
+          <p>ZeroTrace may request permissions required for extension behavior:</p>
+          <ul>
+            <li><strong><code>declarativeNetRequest</code></strong> — block ad and tracker requests before resources load</li>
+            <li><strong><code>storage</code></strong> — save user preferences locally</li>
+            <li><strong><code>scripting</code></strong> — apply page-level filtering behavior</li>
+            <li><strong><code>tabs</code></strong> — apply per-site controls to active host</li>
+            <li><strong><code>webRequest</code></strong> — support request-level runtime protection logic</li>
+            <li><strong><code>notifications</code></strong> — show optional user-facing notifications</li>
+            <li><strong><code>&lt;all_urls&gt;</code> host access</strong> — allow protection on sites you visit</li>
+          </ul>
+          <p>Permissions are used for stated product outcomes and user controls.</p>
+
+          <h2>8. Updates to this policy</h2>
+          <p>
+            If privacy practices evolve, this policy will be updated with clear language and updated effective date.
+          </p>
+
+          <h2>9. Contact</h2>
+          <p>For privacy questions, use project issue tracker:</p>
+          <ul>
+            <li><a href="https://github.com/ork89/ZeroTrace-public/issues">GitHub Issues</a></li>
+          </ul>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
